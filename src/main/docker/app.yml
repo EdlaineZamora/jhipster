@@ -1,0 +1,16 @@
+version: '2'
+services:
+    jmeterapp-app:
+        image: jmeterapp
+        external_links:
+            - jmeterapp-postgresql:postgresql
+        environment:
+            - SPRING_PROFILES_ACTIVE=prod,swagger
+            - SPRING_DATASOURCE_URL=jdbc:postgresql://postgresql:5432/jmeterapp
+            - JHIPSTER_SLEEP=10 # gives time for the database to boot before the application
+        ports:
+            - 8080:8080
+    jmeterapp-postgresql:
+        extends:
+            file: postgresql.yml
+            service: jmeterapp-postgresql

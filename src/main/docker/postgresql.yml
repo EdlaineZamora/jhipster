@@ -1,0 +1,12 @@
+version: '2'
+services:
+    jmeterapp-postgresql:
+        container_name: jmeterapp-postgresql
+        image: postgres:9.5.3
+        # volumes:
+        #     - ~/volumes/jhipster/jmeterapp/postgresql/:/var/lib/postgresql/
+        environment:
+            - POSTGRES_USER=jmeterapp
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
