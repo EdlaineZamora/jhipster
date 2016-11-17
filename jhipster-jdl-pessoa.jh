@@ -1,0 +1,22 @@
+entity Pessoa {
+	nome String,
+    documento String,
+    idade Integer
+}
+
+enum Language {
+    FRENCH, ENGLISH, PORTUGUESE
+}
+
+//relationship ManyToOne {
+//	Pessoa{cidade} to Cidade
+//}
+
+// Set pagination options
+paginate Pessoa with pagination
+
+// Set service options to all except few
+service all with serviceImpl except Pessoa
+// Set an angular suffix
+angularSuffix * with angular
+

@@ -1,0 +1,24 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "nome",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "documento",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "idade",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20161015231725",
+    "entityTableName": "pessoa",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "angularSuffix": "angular"
+}
