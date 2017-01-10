@@ -2,19 +2,19 @@
     "jmeterappApp": {
         "pessoa" : {
             "home": {
-                "title": "Clientes",
-                "createLabel": "Criar novo Cliente",
-                "createOrEditLabel": "Criar ou editar Cliente",
-                "search": "Pesquisar por Cliente"
+                "title": "Pessoas",
+                "createLabel": "Criar nova Pessoa",
+                "createOrEditLabel": "Criar ou editar Pessoa",
+                "search": "Pesquisar por Pessoa"
             },
-            "created": "Um novo Cliente é criado com o identificador {{ param }}",
-            "updated": "Um Cliente é atualizado com o identificador {{ param }}",
-            "deleted": "Um Cliente é deletado com o identificador {{ param }}",
+            "created": "Uma nova Pessoa é criada com o identificador {{ param }}",
+            "updated": "Uma Pessoa é atualizada com o identificador {{ param }}",
+            "deleted": "Uma Pessoa é deletada com o identificador {{ param }}",
             "delete": {
-                "question": "Tem certeza de que deseja excluir Cliente {{ id }}?"
+                "question": "Tem certeza de que deseja excluir Pessoa {{ id }}?"
             },
             "detail": {
-                "title": "Cliente"
+                "title": "Pessoa"
             },
             "nome": "Nome",
             "documento": "Documento",

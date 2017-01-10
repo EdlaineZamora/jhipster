@@ -2,19 +2,19 @@
     "jmeterappApp": {
         "pessoa" : {
             "home": {
-                "title": "Clientes",
-                "createLabel": "Create a new Cliente",
-                "createOrEditLabel": "Create or edit a Cliente",
-                "search": "Search for Cliente"
+                "title": "Pessoas",
+                "createLabel": "Create a new Pessoa",
+                "createOrEditLabel": "Create or edit a Pessoa",
+                "search": "Search for Pessoa"
             },
-            "created": "A new Cliente is created with identifier {{ param }}",
-            "updated": "A Cliente is updated with identifier {{ param }}",
-            "deleted": "A Cliente is deleted with identifier {{ param }}",
+            "created": "A new Pessoa is created with identifier {{ param }}",
+            "updated": "A Pessoa is updated with identifier {{ param }}",
+            "deleted": "A Pessoa is deleted with identifier {{ param }}",
             "delete": {
-                "question": "Are you sure you want to delete Cliente {{ id }}?"
+                "question": "Are you sure you want to delete Pessoa {{ id }}?"
             },
             "detail": {
-                "title": "Cliente"
+                "title": "Pessoa"
             },
             "nome": "Nome",
             "documento": "Documento",
