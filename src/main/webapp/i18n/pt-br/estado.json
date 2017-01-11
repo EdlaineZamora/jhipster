@@ -1,0 +1,22 @@
+{
+    "jmeterappApp": {
+        "estado" : {
+            "home": {
+                "title": "Estados",
+                "createLabel": "Criar novo Estado",
+                "createOrEditLabel": "Criar ou editar Estado",
+                "search": "Pesquisar por Estado"
+            },
+            "created": "Um novo Estado é criado com o identificador {{ param }}",
+            "updated": "Um Estado é atualizado com o identificador {{ param }}",
+            "deleted": "Um Estado é deletado com o identificador {{ param }}",
+            "delete": {
+                "question": "Tem certeza de que deseja excluir Estado {{ id }}?"
+            },
+            "detail": {
+                "title": "Estado"
+            },
+            "nome": "Nome"
+        }
+    }
+}

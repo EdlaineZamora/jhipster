@@ -1,0 +1,27 @@
+
+<div>
+    <h2><span translate="jmeterappApp.cidade.detail.title">Cidade</span> {{vm.cidade.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="dl-horizontal jh-entity-details">
+        <dt><span translate="jmeterappApp.cidade.nome">Nome</span></dt>
+        <dd>
+            <span>{{vm.cidade.nome}}</span>
+        </dd>
+        <dt><span translate="jmeterappApp.cidade.estado">Estado</span></dt>
+        <dd>
+            <a ui-sref="estado-detail({id:vm.cidade.estadoId})">{{vm.cidade.estadoNome}}</a>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            ui-sref="{{ vm.previousState }}"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button" ui-sref="cidade-detail.edit({id:vm.cidade.id})" class="btn btn-primary">
+        <span class="glyphicon glyphicon-pencil"></span>
+        <span class="hidden-xs hidden-sm" translate="entity.action.edit"> Edit</span>
+    </button>
+</div>

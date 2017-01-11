@@ -1,0 +1,28 @@
+
+
+
+entity Cidade {
+	nome String
+}
+
+entity Estado {
+	nome String
+}
+
+enum Language {
+    FRENCH, ENGLISH, SPANISH
+}
+
+relationship ManyToOne {
+	Cidade{estado(nome)} to Estado
+}
+
+
+paginate Cidade, Estado with pagination
+
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl except Cidade, Estado
+// Set an angular suffix
+angularSuffix * with mySuffix

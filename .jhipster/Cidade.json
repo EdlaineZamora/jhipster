@@ -1,0 +1,23 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "estado",
+            "otherEntityName": "estado",
+            "otherEntityField": "nome"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "nome",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20161117230429",
+    "entityTableName": "cidade",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "no",
+    "angularSuffix": "mySuffix"
+}

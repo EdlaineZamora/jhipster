@@ -1,0 +1,22 @@
+{
+    "jmeterappApp": {
+        "estado" : {
+            "home": {
+                "title": "Estados",
+                "createLabel": "Create a new Estado",
+                "createOrEditLabel": "Create or edit a Estado",
+                "search": "Search for Estado"
+            },
+            "created": "A new Estado is created with identifier {{ param }}",
+            "updated": "A Estado is updated with identifier {{ param }}",
+            "deleted": "A Estado is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Estado {{ id }}?"
+            },
+            "detail": {
+                "title": "Estado"
+            },
+            "nome": "Nome"
+        }
+    }
+}

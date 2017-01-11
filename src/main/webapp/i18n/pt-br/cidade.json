@@ -1,0 +1,23 @@
+{
+    "jmeterappApp": {
+        "cidade" : {
+            "home": {
+                "title": "Cidades",
+                "createLabel": "Criar nova Cidade",
+                "createOrEditLabel": "Criar ou editar Cidade",
+                "search": "Pesquisar por Cidade"
+            },
+            "created": "Uma nova Cidade é criada com o identificador {{ param }}",
+            "updated": "Uma Cidade é atualizada com o identificador {{ param }}",
+            "deleted": "Uma Cidade é deletada com o identificador {{ param }}",
+            "delete": {
+                "question": "Tem certeza de que deseja excluir Cidade {{ id }}?"
+            },
+            "detail": {
+                "title": "Cidade"
+            },
+            "nome": "Nome",
+            "estado": "Estado"
+        }
+    }
+}
